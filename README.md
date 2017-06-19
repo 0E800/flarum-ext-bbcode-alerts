@@ -10,21 +10,34 @@ Install:
 **Usage:**
 
 ***Basic notification alert:***
- `[AWARNING]{TEXT}[/AWARNING]` 
- `[ASUCCESS]{TEXT}[/ASUCCESS]` 
- `[AINFO]{TEXT}[/AINFO]` 
- `[ABASIC]{TEXT}[/ABASIC]` 
- `[ACUSTOM]{COLOR} {COLOR2} {COLOR3} {TEXT}[/ACUSTOM]` 
+
+`[AWARNING]{TEXT}[/AWARNING]`
+
+`[ASUCCESS]{TEXT}[/ASUCCESS]`
+
+`[AINFO]{TEXT}[/AINFO]`
+
+`[ABASIC]{TEXT}[/ABASIC]`
+
+`[ACUSTOM]{COLOR} {COLOR2} {COLOR3} {TEXT}[/ACUSTOM]`
 
 ***More styled notification:***            
- `[berror]{TEXT}[/berror]` 
- `[cerror]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cerror]` 
- `[bsuccess]{TEXT}[/bsuccess]` 
- `[csuccess]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/csuccess]` 
- `[bwarning]{TEXT}[/bwarning]` 
- `[cwarning]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cwarning]` 
- `[bnotice]{TEXT}[/bnotice]` 
- `[cnotice]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cnotice]` 
+
+`[berror]{TEXT}[/berror]` 
+
+`[cerror]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cerror]` 
+
+`[bsuccess]{TEXT}[/bsuccess]` 
+
+`[csuccess]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/csuccess]` 
+
+`[bwarning]{TEXT}[/bwarning]` 
+
+`[cwarning]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cwarning]` 
+
+`[bnotice]{TEXT}[/bnotice]` 
+
+`[cnotice]{COLOR} {COLOR2} {COLOR3} {TEXT} {TEXT2}[/cnotice]` 
 
 
 
