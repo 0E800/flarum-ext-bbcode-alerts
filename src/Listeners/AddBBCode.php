@@ -51,6 +51,13 @@ $event->configurator->BBCodes->addCustom(
         );
 
 $event->configurator->BBCodes->addCustom(
+            '[BCUSTOM]title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}[/BCUSTOM]',
+            '<div id="aaalertbody">
+<div class="aaalert">
+                <p class="aainner" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};">{TEXT}</p></div></div>'
+        );
+
+$event->configurator->BBCodes->addCustom(
             '[berror]{TEXT}[/berror]',
             '<div id="aaalertbody"><div class="bbalert-box bberror"><span>error: </span>{TEXT}</div></div>'
         );
@@ -88,6 +95,26 @@ $event->configurator->BBCodes->addCustom(
 
 $event->configurator->BBCodes->addCustom(
             '[cnotice]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/cnotice]',
+            '<div id="aaalertbody"><div class="bbalert-box bbnotice" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};"><span>{TEXT}: </span>{TEXT2}</div></div>'
+        );
+
+$event->configurator->BBCodes->addCustom(
+            '[derror title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/derror]',
+            '<div id="aaalertbody"><div class="bbalert-box bberror" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};"><span>{TEXT}: </span>{TEXT2}</div></div>'
+        );
+
+$event->configurator->BBCodes->addCustom(
+            '[dsuccess title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dsuccess]',
+            '<div id="aaalertbody"><div class="bbalert-box bbsuccess" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};"><span>{TEXT}: </span>{TEXT2}</div></div>'
+        );
+
+$event->configurator->BBCodes->addCustom(
+            '[dwarning title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dwarning]',
+            '<div id="aaalertbody"><div class="bbalert-box bbwarning" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};"><span>{TEXT}: </span>{TEXT2}</div></div>'
+        );
+
+$event->configurator->BBCodes->addCustom(
+            '[dnotice title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dnotice]',
             '<div id="aaalertbody"><div class="bbalert-box bbnotice" style="color: {COLOR}; background-color: {COLOR2}; border-color: {COLOR3};"><span>{TEXT}: </span>{TEXT2}</div></div>'
         );
 

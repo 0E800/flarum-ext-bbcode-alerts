@@ -55,7 +55,19 @@ Install:
 `[cnotice]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/cnotice]` 
 
 
+***Added proper BBCode formatting*** - (Thanks to JoshyPHP)
 
+
+`[BCUSTOM]title={TEXT} font={COLOR} gb={COLOR2} border={COLOR3}[/BCUSTOM]`
+
+
+`[derror title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/derror]`
+
+`[dsuccess title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dsuccess]`
+
+`[dwarning title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dwarning]`
+
+`[dnotice title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dnotice]`
 
 
 **Examples:**
@@ -69,9 +81,13 @@ Install:
 ![Imgur](http://i.imgur.com/nPvuFdJ.png)
 ![Imgur](http://i.imgur.com/epDghP3.png)
 
+**Properly formatted BBCode**
+
+![Imgur](http://i.imgur.com/wmWPqpr.png)
 
 
 
+**Todos:**
+ - Add more styles.
 
-
-
+Comments / Suggestions welcome.
