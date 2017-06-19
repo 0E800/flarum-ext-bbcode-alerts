@@ -79,7 +79,7 @@ Install:
 
 
 ![Imgur](http://i.imgur.com/nPvuFdJ.png)
-![Imgur](http://i.imgur.com/epDghP3.png)
+![Imgur](http://i.imgur.com/epDghP3.png?1)
 
 **Properly formatted BBCode**
 
