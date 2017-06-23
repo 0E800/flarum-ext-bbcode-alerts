@@ -7,10 +7,13 @@ Add Alerts and Warnings and other custom Notifications to your Flarum posts.
 `composer require oe800/flarum-ext-bbcode-alerts`
 
 ***Update:***
+
 `composer update oe800/flarum-ext-bbcode-alterts`
 
 **Current Ver.:***
+
 Version 0.1.6 - Released 6/22/2017
+
 - Updated to be responcive to Mobile devices 
 
 
