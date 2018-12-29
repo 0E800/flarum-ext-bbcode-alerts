@@ -1,23 +1,40 @@
 {
-    "name": "oe800/flarum-ext-bbcode-alerts",
-    "description": "Add visual alerts / warnings to Flarum posts",
-    "type": "flarum-extension",
-    "require": {
-        "flarum/core": "^0.1.0-beta.6"
-    },
-  "extra": {
-        "flarum-extension": {
-            "title": "BBCode Alerts",
-            "icon": {
-                "name": "times-rectangle-o",
-                "backgroundColor": "#000",
-                "color": "#fff"
-            }
-        }
-    },
-    "autoload": {
-        "psr-4": {
-            "oe800\\BBCodeAlerts\\": "src/"
+  "name": "oe800/flarum-ext-bbcode-alerts",
+  "description": "Add visual alerts / warnings to Flarum posts",
+  "keywords": [
+    "bbcode",
+    "flarum",
+    "oe800",
+    "alerts",
+    "warnings",
+    "notifications"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "0E800",
+      "email": "0ld3nglish800@gmail.com"
     }
-}
+  ],
+  "support": {
+    "issues": "https://github.com/0E800/flarum-ext-bbcode-alerts/issues",
+    "source": "https://github.com/0E800/flarum-ext-bbcode-alerts"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.8"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "0E800's BBCode Alerts",
+      "icon": {
+        "name": "fas fa-exclamation",
+        "backgroundColor": "#000",
+        "color": "#fff"
+      }
+    },
+    "flagrow": {
+      "discuss": "https://discuss.flarum.org/d/6044-0e800-s-bbcode-alerts-notifications"
+    }
+  }
 }

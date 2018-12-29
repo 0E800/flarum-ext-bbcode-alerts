@@ -1,103 +1,76 @@
-Flarum BBCode Alerts / Notifications  Extension
+# BBCode Alerts / Notifications by 0E800
 
-Add Alerts and Warnings and other custom Notifications to your Flarum posts.
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/0E800/flarum-ext-bbcode-alerts/blob/master/LICENSE)
+[![Latest Stable Version](https://img.shields.io/packagist/v/oe800/flarum-ext-bbcode-alerts.svg)](https://packagist.org/packages/oe800/flarum-ext-bbcode-alerts)
+[![Total Downloads](https://img.shields.io/packagist/dt/oe800/flarum-ext-bbcode-alerts.svg)](https://packagist.org/packages/oe800/flarum-ext-bbcode-alerts)
 
-***Install:***
+Add ALERTS, WARNINGS and other custom notifications to your Flarum posts.
+
+### Installation
 
 `composer require oe800/flarum-ext-bbcode-alerts`
 
-***Update:***
+### Updating
 
 `composer update oe800/flarum-ext-bbcode-alterts`
 
-**Current Ver.:***
+### Usage
 
-Version 0.1.6 - Released 6/22/2017
+***Basic Notification Alerts:***
 
-- Updated to be responcive to Mobile devices 
+`[AWARNING]This is an AWARNING message.[/AWARNING]`
 
+`[ASUCCESS]This is an ASUCCESS message.[/ASUCCESS]`
 
-**Usage:**
+`[AINFO]This is an AINFO message.[/AINFO]`
 
+`[ABASIC]This is an ABASIC message.[/ABASIC]`
 
-***Basic notification alert:***
+`[ACUSTOM]red,black,green,This is an ACUSTOM message.[/ACUSTOM]`
 
+***More Styled Notifications:***            
 
-`[AWARNING]{TEXT}[/AWARNING]`
+`[BWARNING]This is n BWARNING message.[/BWARNING]`
 
+`[BSUCCESS]This is a BSUCCESS message.[/BSUCCESS]`
 
-`[ASUCCESS]{TEXT}[/ASUCCESS]`
+`[BERROR]This is a BERROR message.[/BERROR]`
 
+`[CWARNING]darkorange,white,darkorange,THIS IS A CWARNING TITLE,This is a CWARNING message.[/CWARNING]`
 
-`[AINFO]{TEXT}[/AINFO]`
+`[CNOTICE]teal,white,teal,THIS IS A CNOTICE TITLE,This is a CNOTICE message.[/CNOTICE]`
 
+`[CERROR]red,white,red,THIS IS A CERROR TITLE,This is a CERROR message.[/CERROR]`
 
-`[ABASIC]{TEXT}[/ABASIC]`
+`[CSUCCESS]green,white,green,THIS IS A CERROR TITLE,This is a CSUCCESS message.[/CSUCCESS]`
 
+***Added Proper BBCode Formatting (Thanks to [JoshyPHP](https://github.com/joshyphp)):***
 
-`[ACUSTOM]{COLOR},{COLOR2},{COLOR3},{TEXT}[/ACUSTOM]`
+`[BCUSTOM]title=THIS IS A BCUSTOM TITLE font=red bg=black border=green[/BCUSTOM]`
 
+`[DNOTICE title="This is a DNOTICE title" font="teal" bg="white" border="teal"]This is a DNOTICE message.[/DNOTICE]`
 
-***More styled notification:***            
+`[DERROR title="This is a DERROR title" font="red" bg="white" border="red"]This is a DERROR message.[/DERROR]`
 
+`[DWARNING title="This is a DWARNING title" font="darkorange" bg="white" border="darkorange"]This is a DWARNING message.[/DWARNING]`
 
-`[berror]{TEXT}[/berror]` 
+`[DSUCCESS title="This is a DSUCCESS title" font="green" bg="white" border="green"]This is a DSUCCESS message.[/DSUCCESS]`
 
-
-`[cerror]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/cerror]` 
-
-
-`[bsuccess]{TEXT}[/bsuccess]` 
-
-
-`[csuccess]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/csuccess]` 
-
-
-`[bwarning]{TEXT}[/bwarning]` 
-
-
-`[cwarning]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/cwarning]` 
-
-
-`[bnotice]{TEXT}[/bnotice]` 
-
-
-`[cnotice]{COLOR},{COLOR2},{COLOR3},{TEXT},{TEXT2}[/cnotice]` 
-
-
-***Added proper BBCode formatting*** - (Thanks to JoshyPHP)
-
-
-`[BCUSTOM]title={TEXT} font={COLOR} gb={COLOR2} border={COLOR3}[/BCUSTOM]`
-
-
-`[derror title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/derror]`
-
-`[dsuccess title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dsuccess]`
-
-`[dwarning title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dwarning]`
-
-`[dnotice title={TEXT} font={COLOR} bg={COLOR2} border={COLOR3}]{TEXT2}[/dnotice]`
-
-
-**Examples:**
-
-
-
+### Screenshots
 
 ![Imgur](http://i.imgur.com/ZMXJe9r.png)
-
-
 ![Imgur](http://i.imgur.com/nPvuFdJ.png)
 ![Imgur](http://i.imgur.com/epDghP3.png?1)
 
-**Properly formatted BBCode**
+***Properly Formatted BBCode:***
 
 ![Imgur](http://i.imgur.com/wmWPqpr.png)
 
+### To Do
 
+- Add more styles.
+- Requests?
 
-**Todos:**
- - Add more styles.
+### Links
 
-Comments / Suggestions welcome.
+- [Packagist](https://packagist.org/packages/oe800/flarum-ext-bbcode-alerts)
