@@ -6,6 +6,25 @@
 
 Add ALERTS, WARNINGS and other custom notifications to your Flarum posts.
 
+# 0.2.0 ❤️ 
+
+## @Ralkage 's Remix
+
+- ”*°• ʙᴇᴛᴀ 8.(1) ᴄᴏᴍᴘᴀᴛɪʙɪʟɪᴛʏ. •°*”
+- MAJOR refactoring/restructuring of code.
+-  Friendlier way of updating FA4 icons to FA5 through our LESS savior/function `fa();` which I got after reviewing extensions that make use of FA5 icons through LESS (aka Tags ;);))
+-  Made use of those new extenders ❤️ (Formatter is 💝 )
+-  composer.json updated.
+- README makeover.
+- Added LICENSE file cause why not?
+- Added .editorconfig
+- Added .gitignore
+
+`P.S. There's more to come 🙈 `
+
+
+
+
 ### Installation
 
 `composer require oe800/flarum-ext-bbcode-alerts`
